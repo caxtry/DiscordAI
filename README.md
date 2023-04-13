@@ -18,7 +18,16 @@ This is a simple project to make life easier if you use discord too much. For ex
   1. Clone this porject or export it
   2. Go to your terminal and type `npm install discord.js openai dotenv`
   3. Use `npm init -y` after you install step 2.
-  4. Start bot by `node .` or `node index.js`
+
+## How to make the bot work
+
+1. In the `.env` file look for `TOKEN` in there you will paste your bot token
+2. In `API_KEY` you will paste your OpenAI Key there
+3. In the `CHANNEL_ID` paste your channel id that you want the bot to talk.
+4. Where to find the bot token, ChatGPT key?
+* Bot token you can find it here: https://discord.com/developers/applications
+* OpenAI key: https://platform.openai.com/
+6. If you don't understand how to set it up. Check the YouTube video from above.
 
 ## Find a bug?
 
