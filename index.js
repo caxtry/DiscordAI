@@ -41,6 +41,15 @@ client.on('messageCreate', async(message) => {
             content: message.content,
         })
     })
+    
+    // Example of a custom command:
+   
+    // if(message.content.match(/who am i/i) {
+    //    message.reply(`You are ${message.author.username}`)
+    //    return;
+    // }
+    
+    // Custom Commands Down Here ⤵
 
     const result = await openai.createChatCompletion({
         model: 'gpt-3.5-turbo',
