@@ -16,6 +16,10 @@ This is a simple project to make life easier if you use discord too much. For ex
   ## How to install the required packages.
   
   1. Clone this porject or export it
-  2. Go to your terminal and tpye `npm install discord.js openai dotenv`
+  2. Go to your terminal and type `npm install discord.js openai dotenv`
   3. Use `npm init -y` after you install step 2.
   4. Start bot by `node .` or `node index.js`
+
+## Find a bug?
+
+If you find an issue or would like to sumbit an improvement to this project, please sumbit an issue using the issue tab above.
